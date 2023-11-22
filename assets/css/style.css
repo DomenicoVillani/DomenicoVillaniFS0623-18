@@ -1,0 +1,133 @@
+body{
+    margin-right: 10%;
+}
+p{
+    color: brown;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+h1{
+    color: brown;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+h2{
+    color: brown;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+h3{
+    color: brown;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-align: center;
+}
+@media screen and (min-width:400px) {
+    body{
+        margin-left: 0;
+        margin-right: 20%;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        padding-top: 10%;
+        align-items: center;
+        margin-right: 20%;
+    }
+    .pNav{
+        border: 1px solid rgba(255, 255, 0, 0.425);
+        background-color: rgba(255, 255, 0, 0.719);
+        padding: 10%;
+        border-radius: 33%;
+    }
+    .rowFlex{
+        display: flex;
+        flex-direction: row;
+        margin-right: 30%;
+
+    }
+    .shopDiv{
+        width: 200px;
+        padding-right: 30%;
+    }
+    .div1{
+        align-items: stretch;
+        order: 1;
+    }
+    .div2{
+        order: -1;
+    }
+    .div3{
+        order: 2;
+        width: 200px;
+    }
+    .honeyCard{
+        border-top-left-radius: 40%;
+        border-top-right-radius: 40%;
+        order: -1;
+        width:200px;
+        padding-left: 0;
+    }
+    .pCard{
+        font-size: 0.8rem;
+    }
+    span{
+        font-weight: normal;
+    }
+    .pPrice{
+        font-weight: normal;
+    }
+    .addToCart{
+        border: 1px solid rgba(255, 255, 0, 0.425);
+        background-color: rgba(255, 255, 0, 0.719);
+        border-radius: 25%; 
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .contCardDiv{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        padding-top: 10%;
+    }
+    .cardDivP{
+        order: 1;
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        max-width: 350px;
+        justify-content: space-around;
+    }
+    .addToCartDivCont{
+        order: 2;
+        width: 50%;
+        max-width: 150px;
+    }
+    .pLastSection{
+        font-size: 1rem;
+        font-weight: normal;
+        line-height: 1.3rem;
+        margin-right: 50%;
+    }
+    h1, h2, h3{
+        margin-right: 50%;
+    }
+    .honeyImg{
+        width:200px;
+        height: auto;
+    } 
+}
+@media screen and (min-width:550px) {
+    body{
+        margin-left: 0;
+        margin-right: 20%;
+    }
+    nav{
+        flex-direction: row;
+    }
+}
